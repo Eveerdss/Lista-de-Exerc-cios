@@ -2,7 +2,7 @@
 
 #Fazer a verificação ignorando acentuação
 
-entrada = input("Digite uma palavra ou frase: ")
+entrada = input("Digite uma palavra ou uma frase: ")
 
 texto_limpo = ''.join(
     caractere.lower() for caractere in entrada
