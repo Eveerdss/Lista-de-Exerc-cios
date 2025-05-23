@@ -1,10 +1,10 @@
-#Verificaodr de Palíndromo
+#Verificador de Palíndromo
 
 entrada = input("Digite uma palavra ou frase: ")
 texto_limpo = entrada.replace(" ", "").lower()
 if texto_limpo == texto_limpo[::-1]:
-    print("É um palíndromo!")
+    print("Correto, é um palíndromo!")
 else:
-    print("Não é um palíndromo.")
+    print("Errado, não é um palíndromo.")
     
     
