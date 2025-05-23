@@ -10,6 +10,6 @@ texto_limpo = ''.join(
 )
 
 if texto_limpo == texto_limpo[::-1]:
-    print("É um palíndromo!")
+    print("Correto, é um palíndromo!")
 else:
     print("Não é um palíndromo.")
